@@ -1,6 +1,10 @@
 import express from "express";
 import dotenv from "dotenv";
 import db from "./config/db.js";
+import userRoutes from "./routes/user.routes.js";
+import categoryRoutes from "./routes/category.routes.js";
+import eventRoutes from "./routes/event.routes.js";
+import { errorHandler, pageNotFound } from "./middlewares/error.middleware.js";
 
 dotenv.config();
 
@@ -11,8 +15,14 @@ db();
 app.use(express.json());
 
 
-app.use("/", (req, res) => res.send({ app: "align_mern_app" }));
+app.use(`${baseURL}/users`, userRoutes);
+app.use(`${baseURL}/categories`, categoryRoutes);
+app.use(`${baseURL}/events`, eventRoutes);
+app.use(pageNotFound);
+app.use(errorHandler);
 
 app.listen(process.env.PORT, () =>
   console.log(`Server is listening on port ${process.env.PORT}`)
 );
+
+export default app;

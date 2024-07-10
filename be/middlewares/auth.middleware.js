@@ -7,16 +7,13 @@ const createAccessToken = (user) => {
 
 const verifyAccessToken = (req, res, next) => {
   try {
-    if (req.headers.authorization !== undefined) {
+    if (req.headers.authorization) {
       const token = req.headers.authorization.split(" ")[1];
-
       const { userId } = jwt.verify(token, process.env.JWT_SECRET);
       req.body.userId = userId;
       next();
     } else {
-      return res.status(401).send({
-        message: "Access token missing."
-      });
+      res.status(401).send({ message: "Access token missing." });
     }
   } catch (error) {
     console.error(error.message);

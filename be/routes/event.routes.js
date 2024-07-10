@@ -15,7 +15,7 @@ const eventRoutes = Router();
 const eventStorage = multer({ storage: alignStorage });
 
 eventRoutes.post(
-  "/", 
+  "/",
   eventStorage.single("event-image"),
   verifyAccessToken,
   asyncHandler(createEvent)
@@ -23,8 +23,8 @@ eventRoutes.post(
 eventRoutes.get("/", asyncHandler(getAllEvent));
 eventRoutes.get("/:eventId", asyncHandler(getEventById));
 eventRoutes.put(
-  "/:eventId", 
-  eventStorage.single("event-image"), 
+  "/:eventId",
+  eventStorage.single("event-image"),
   asyncHandler(updateEventById)
 );
 eventRoutes.delete("/:eventId", asyncHandler(softDeleteEventById));

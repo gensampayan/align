@@ -1,0 +1,173 @@
+[
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d44"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225023"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@email.com",
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d43"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225024"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d42"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225025"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d41"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225026"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d40"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225027"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "667ff2364c089e0fe7817d39"
+    },
+    "userId": {
+      "$oid": "6671cecbef82d7d1e7225028"
+    },
+    "title": "edited title",
+    "description": "edited description",
+    "image": {
+      "path": "https://res.cloudinary.com/dassv7xkq/image/upload/v1719668152/align_mern_app/crq26hhpsv5slgbp2dno.png",
+      "filename": "align_mern_app/crq26hhpsv5slgbp2dno"
+    },
+    "location": "Manila",
+    "category": "Web Development",
+    "isOpen": true,
+    "attendees": "100",
+    "date": "06/29/2024",
+    "time": "12:00AM",
+    "deleted": false,
+    "createdAt": {
+      "$date": "2024-06-29T11:38:30.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-29T13:35:50.431Z"
+    },
+    "__v": 0
+  }
+]

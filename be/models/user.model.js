@@ -2,6 +2,16 @@ import { Schema, model } from "mongoose";
 
 const userSchema = new Schema(
   {
+    image: {
+      path: {
+        type: String,
+        required: [false]
+      },
+      filename: {
+        type: String,
+        required: [false]
+      }
+    },
     firstName: {
       type: String,
       required: [true, "First name field is required."],

@@ -1,7 +1,14 @@
 # Align
-This application allows users to create and manage events designed to foster community engagement. By providing tools for event organization and promotion, it helps bring people together for various social, educational, and recreational activities. The app's features aim to strengthen community bonds and enhance collective participation.
+- Align is a platform dedicated to fostering community connections through intuitive tools designed for organizing, promoting, and managing a wide range of social, educational, and recreational events. Whether it's a local gathering, educational workshop, or cultural celebration, Align ensures that every event contributes positively to the communities.
 
-## MVP
+## Technology
+- MongoDB
+- Express.js
+- React
+- Node.js
+- Vite
+
+## Features
 - Sign in 
 - Sign Up
 - Logout
@@ -10,13 +17,12 @@ This application allows users to create and manage events designed to foster com
 - Own Events
 - Event detail page
 
-## Features
-### Sign in
-### Sign up
-### Profile
-### Dashboard
-### Own Events - User
-### Logout
+## Usage
+- git clone `https://github.com/gensampayan/align.git`
+- run `npm start`
+
+## Website
+- https://align-mern-app.vercel.app/
 
 ### Resources
 - https://gitlab.com/uplift-code-camp/students/batch-19/group-4/fs-mern-app
